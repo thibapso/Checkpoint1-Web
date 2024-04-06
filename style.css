@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parisienne&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: #1B1C1E;
+}
+
+header {
+    background-color: #1B1C1E;
+    color: #FFFFFF;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Parisienne', serif;
+    font-size: 80px;
+    text-align: center;
+    margin: auto;
+}
+
+header p {
+    text-align: center;
+    font-size: 20px;
+    max-width: 1000px;
+}
+
+main p {
+    font-size: 25px;
+}
+
+#descoberta {
+    margin: 80px;
+}
+
+#descoberta h2 {
+    margin: 30px 0px;
+}
+
+#descoberta p {
+    margin: 25px 0px;
+}
+
+#turismo {
+    height: auto;
+    background-color: #002654;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 80px;
+}
+
+#turismo h2 {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 40px;
+}
+
+.fotos div {
+    background-color: #ED2939;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.foto_2 {
+    transform: scale(1.1);
+}
+
+.fotos div img {
+    padding: 10px;
+}
+
+.fotos p {
+    margin: 10px;
+}
+
+.louvre,
+.triunfo {
+    margin: 20px;
+    object-fit: fill;
+    width: 360px;
+    height: 360px;
+}
+
+.torre {
+    margin: 20px;
+    object-fit: fill;
+    width: 510px;
+    height: 410px;
+}
+
+#novidade {
+    margin: 80px;
+
+}
+
+.olimpiadas {
+    display: flex;
+}
+
+.foto_olimpiadas {
+    max-width: 1000px;
+    max-height: 600px;
+    width: 45%;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo h2 {
+    margin: 30px 0px;
+}
+
+.conteudo p {
+    margin: 20px 0px;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #1B1C1E;
+    color: #FFFFFF;
+    height: 120px;
+}
+
+h3 {
+    font-size: 40px;
+    margin: auto;
+}
